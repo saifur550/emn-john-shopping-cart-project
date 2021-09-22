@@ -1,0 +1,9 @@
+.product{
+    display: flex;
+    padding: 1rem;
+    border-bottom: 2px solid lightgray;
+}
+
+.product-name{
+    color: rgba(0, 0, 255, 0.788);
+}
