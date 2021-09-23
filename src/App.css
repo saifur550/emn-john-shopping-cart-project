@@ -3,6 +3,11 @@
 
 *{
   font-family: 'Dosis', sans-serif;
+  font-size: 1.1rem;
+}
+
+body{
+  background-color: #FAF3F3;
 }
 .App {
   text-align: center;
