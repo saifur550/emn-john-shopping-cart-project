@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
 import { useState } from 'react';
-import Product from '../Product/Product';
-import './Shop.css';
-import Cart from '../Cart/Cart';
+import Product from '../Product/Product';import Cart from '../Cart/Cart';
 import { addToDb, getStoredCart } from '../../utilities/fakedb';
+import './Shop.css';
+
 
 
 const Shop = () => {
@@ -17,7 +17,13 @@ const Shop = () => {
 
     useEffect(()=>{
         const saveCart = getStoredCart();
-        console.log(saveCart);
+        // console.log(saveCart);
+        for(const key in saveCart){
+            console.log(key);
+            // console.log(products);
+            const addProduct = products.find(product =>product.key === key);
+            console.log(key , addProduct);
+        }
 
     },[])
 
