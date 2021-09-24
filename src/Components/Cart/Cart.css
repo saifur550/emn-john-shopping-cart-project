@@ -1,0 +1,12 @@
+.main-cart{
+    /* border-bottom-style:solid; */
+    background-color: rgb(16, 134, 150);
+    padding: 1rem;
+    margin-top: 2rem;
+    text-align: right;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    position: fixed;
+    width: 20%;
+}
