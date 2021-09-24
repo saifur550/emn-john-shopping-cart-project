@@ -9,6 +9,10 @@
   line-height: 35px;
 }
 
+.cart-container {
+  margin: .5rem;
+}
+
 body{
   background-color: #ffffff;
 }

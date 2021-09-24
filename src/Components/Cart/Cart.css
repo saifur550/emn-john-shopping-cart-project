@@ -6,7 +6,18 @@
     text-align: right;
     background-color: #000000;
     color: rgb(255, 255, 255);
-    border-radius: 5px;
+    /* border-radius: 5px; */
     position: fixed;
     width: 20%;
+    
+}
+
+.review-btn{
+    background-color: yellow;
+    display: inline-block;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: 900;
+    color: #333;
 }
